@@ -7,6 +7,7 @@ import reports
 import set_price
 import stock
 
+
 # function for handling registration of customers
 def register_customer():
     customer.register_customer()
@@ -57,6 +58,7 @@ def view_sales():
 
 # Initializing the database whenever the program starts
 database.create_tables()
+database.initialize_database()
 
 # ======================================================================================================================
 # creating the menu for displaying all the options

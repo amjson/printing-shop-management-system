@@ -162,7 +162,7 @@ def specific_customer_report():
     cursor.execute("""      
         SELECT
             customers.name,
-            print_jobs.job_id,
+            print_jobs,
             print_jobs.pages,
             print_jobs.cost
         FROM print_jobs
