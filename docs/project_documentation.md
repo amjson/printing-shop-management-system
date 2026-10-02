@@ -3,15 +3,11 @@
 ## Version 2.0
 
 ## 1. Introduction
-The Printing Shop Management System is a Python-based desktop application designed to help manage 
-the daily operations of a printing shop.
+The Printing Shop Management System is a Python-based desktop application designed to help manage the daily operations of a printing shop.
 
-The system provides a graphical user interface (GUI) that allows users to manage customers, printing 
-materials, printing jobs, printing prices, and business reports from a central dashboard.
+The system provides a graphical user interface (GUI) that allows users to manage customers, printing materials, printing jobs, printing prices, and business reports from a central dashboard.
 
-Version 2.0 was developed using Python, Tkinter, and SQLite. The system is designed to improve 
-the organization of printing shop records, reduce manual record keeping, and provide easier access 
-to customer, stock, printing, and sales information.
+Version 2.0 was developed using Python, Tkinter, and SQLite. The system is designed to improve the organization of printing shop records, reduce manual record keeping, and provide easier access to customer, stock, printing, and sales information.
 
 
 ## 2. Project Objectives

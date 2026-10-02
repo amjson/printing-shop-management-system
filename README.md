@@ -1,114 +1,84 @@
 # Project Title 
-Printing Shop Management System
+Printing Shop Management System V2
 
 ## Project Description
-A console-based Printing Shop Management System developed using Python and SQLite. The system helps manage 
-customers, stock, printing jobs, pricing, and generates sales reports for a small printing business.
+A Python/Tkinter/SQLite desktop application that helps in managing customers, stock, printing jobs, pricing, and generates sales reports for a small printing business.
 
 ## Features
 1. Customer Management
 2. Stock Management
 3. Printing Jobs 
-4. Sales Management 
+4. Pricing 
 5. Sales Reports
 6. Daily Sales Reports
 7. Customer Printing History
 8. Stock History
 9. Soft Delete
-10. Settings Module
 
 ## Technologies Used
 1. Language - Python 
 2. Database - SQLite 
 3. Text Editor - PyCharm
+4. GUI Interface - Tkinter
+5. Displaying sales charts - Matplotlib
+6. Working with dates and times - TkCalendar
 
 ## Project Structure
 These are the Project Modules
 
-1. main.py
-2. customer.py
-3. stock.py
-4. set_price.py
-5. printing.py
-6. reports.py
-7. database.py
+1. dashboard.py
+2. window_customer.py
+3. window_stock.py
+4. window_print.py
+5. window_report.py
+6. database.py
 
 ## Database Design
 Database Tables
 
-1. Customers
-2. Print Jobs
-3. Stock
-4. Stock History
-5. Settings Price
+1. tbl_customers
+2. tbl_customers_history
+3. tbl_stock
+4. stock_history
+5. printing_price
+6. tbl_print_jobs
 
 ## How to Run the Project
 1. Install Python 3.14 or later
 2. Open the project folder in PyCharm
-3. Run main.py
+3. Run gui/dashboard.py
 4. The database will be created automatically if it does not already exist.
 
 ## Project Status
-Version 1.0 - Completed
+Version 2.0 - Completed
 
-✔ Customer Management
-✔ Stock Management
-✔ Printing Module
-✔ Reports
-✔ Settings
+✔ Customer Window
+✔ Stock Window
+✔ Printing Window
+✔ Reports Window
 ✔ Fully Tested
 
 ## Screenshots
-#### Main Menu
-![Main Menu](screenshots/1_main_menu.png)
+#### Splash screen
+![Main Menu](screenshots/1_splash_screen.png)
 
-#### Customer Registration
-![Customer Registration](screenshots/2_register_customer.png)
+#### Dashboard
+![Customer Registration](screenshots/2_dashboard.png)
 
 #### View Customer
-![View Customers](screenshots/3_view_customer.png)
+![View Customers](screenshots/3_customer_overview.png)
 
-#### Search Customer
-![Search Customers](screenshots/4_search_customer.png)
+#### Manage Stock
+![Manage Stock](screenshots/7_stock_view.png)
 
-#### Update Customer
-![Update Customers](screenshots/5_update_customer.png)
+#### New Print Job
+![New Print Job](screenshots/10_printing_new.png)
 
-#### Delete Customer
-![Delete Customers](screenshots/6_delete_customer.png)
+#### Summary Report
+![Summary Report](screenshots/14_summary_sale.png)
 
-#### Print Price
-![Printing Price](screenshots/7_set_print_price.png)
-
-#### Add Stock
-![Add Stock](screenshots/8_add_stock.png)
-
-#### View Stock
-![View Stock](screenshots/9_view_stock.png)
-
-#### Print Job
-![Print Job](screenshots/10_print_job.png)
-
-#### Delete Stock
-![Delete Stock](screenshots/11_delete_stock.png)
-
-#### View Stock History
-![View Stock History](screenshots/12_view_stock_history.png)
-
-#### Sales Summary
-![Sales Summary](screenshots/13_sales_summary.png)
-
-#### All Sales Summary
-![All Sales Summary](screenshots/14_all_sales_summary.png)
-
-#### Specific Date Report
-![Specific Date Report](screenshots/15_specific_date_report.png)
-
-#### Specific Customer Report
-![Specific Customer Report](screenshots/16_specific_customer_report.png)
-
-#### Exit
-![Exit](screenshots/17_exit.png)
+#### Customer Report
+![Customer Report](screenshots/16_summary_customer.png)
 
 ## Lessons Learned
 - Modular programming using Python
@@ -117,7 +87,13 @@ Version 1.0 - Completed
 - SQL JOIN queries
 - Business rule implementation
 - Database transaction management
-- Debugging SQLite locking issues
+- Building desktop graphical user interfaces using Tkinter
+- Connecting Tkinter GUI components to database operations
+- Managing multiple application windows using Tkinter
+- Form validation and user input handling
+- Using Treeview to display and manage database records
+- Implementing search, filtering, and sorting in a graphical interface
+- Maintaining application state between GUI operations
 
 ## Future Improvements
 - Version 1.0 → Console
@@ -127,11 +103,21 @@ Version 1.0 - Completed
 
 ## Skills Demonstrated
 - Python Programming
+- Modular Programming
 - SQLite Database Design
 - CRUD Operations
-- SQL Queries
-- Modular Programming
+- SQL Queries and JOINs
+- Database Transactions
 - Business Logic Implementation
+- Data Validation
+- Tkinter GUI Development
+- Desktop Application Development
+- GUI and Database Integration
+- Form Handling and User Input Validation
+- Treeview Data Management
+- Search and Record Filtering
+- Record Status Management
+- History and Audit Record Management
 - Debugging and Problem-Solving
 
 ## Author
